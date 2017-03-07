@@ -1,0 +1,1 @@
+gcc -o main main.c -lSimpleMath -L ../../lib/c/ -wl -rpath='${ORIGIN}'

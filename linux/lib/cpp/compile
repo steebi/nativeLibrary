@@ -1,0 +1,3 @@
+g++ -c -fpic SimpleMath.h Source.cpp
+g++ -shared -o libSimpleMathCpp.so Source.o
+
