@@ -7,7 +7,6 @@
 
 #ifndef _DLL_SIMPLEMATH_H_
 #define _DLL_SIMPLEMATH_H_
-
 #ifdef WIN32
 #	ifdef DLL_EXPORT	//if exporting the dll use the __declspec(dllexport)
 #		define DECLIDER __declspec(dllexport)
